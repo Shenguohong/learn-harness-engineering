@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "state_kind": "example",
+  "course_revision": "a9342ff471f2c0e60be0c08b9f4a7c502df4e442",
+  "updated_at": "2026-11-04",
+  "timezone": "Asia/Singapore",
+  "coach_preparation": "not_recorded",
+  "current_unit": "L01",
+  "limits": {
+    "max_feedback_rounds": 2,
+    "suggested_session_minutes": 25
+  },
+  "progress": [
+    {
+      "unit_id": "L01",
+      "learning_status": "awaiting_response",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L02",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L03",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L04",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L05",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L06",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L07",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L08",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L09",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L10",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L11",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L12",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L13",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "L14",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": null,
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P01",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P02",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P03",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P04",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P05",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P06",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P07",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    },
+    {
+      "unit_id": "P08",
+      "learning_status": "not_started",
+      "feedback_rounds": 0,
+      "evidence": [],
+      "review": null,
+      "original_project_status": "not_run",
+      "original_project_evidence": []
+    }
+  ],
+  "handoff": {
+    "last_action": "示例状态：未记录任何真实学习结果。",
+    "next_action": "展示 learning/L01.md 的开放题，等待学习者用自己的话作答。",
+    "blocked_on": "learner_response",
+    "misconceptions": []
+  },
+  "experiment_runs": []
+}
