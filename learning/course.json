@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "source_repository": "Shenguohong/learn-harness-engineering",
+  "source_revision": "a9342ff471f2c0e60be0c08b9f4a7c502df4e442",
+  "design": "把课程方法迁移到学习过程；这些练习由学习助手设计，不是原课程项目的替代完成证明。",
+  "review_criteria": [
+    "problem_specificity",
+    "mechanism_fit",
+    "observable_evidence"
+  ],
+  "units": [
+    {
+      "id": "L01",
+      "title": "能力与可靠性",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-01-why-capable-agents-still-fail/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/index.md",
+      "learning_goal": "从一个学习失败案例中指出具体原因，提出一项改动及可检查的效果。",
+      "prerequisites": [],
+      "original_project": null
+    },
+    {
+      "id": "L02",
+      "title": "Harness 五部分",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-02-what-a-harness-actually-is/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-02-what-a-harness-actually-is/index.md",
+      "learning_goal": "用自己的话把本学习流程映射到指令、工具、环境、状态和反馈，区分材料齐全与学习证据。",
+      "prerequisites": [
+        "L01"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L03",
+      "title": "资料可发现",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/index.md",
+      "learning_goal": "仅根据学习入口和私有进度找出当前目标、教材、验收、状态与下一步，记录找不到的内容。",
+      "prerequisites": [
+        "L02"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L04",
+      "title": "按需读取指令",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-04-why-one-giant-instruction-file-fails/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-04-why-one-giant-instruction-file-fails/index.md",
+      "learning_goal": "把过长学习说明拆成短入口与按需材料，证明指定规则仍能被找到。",
+      "prerequisites": [
+        "L03"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L05",
+      "title": "跨会话连续性",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/index.md",
+      "learning_goal": "在真实新会话中恢复未完成问题和决定理由；模拟交接只算演示。",
+      "prerequisites": [
+        "L04"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L06",
+      "title": "开工前初始化",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-06-why-initialization-needs-its-own-phase/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-06-why-initialization-needs-its-own-phase/index.md",
+      "learning_goal": "确认材料可读、工具可用、练习可提交且有验收标准；缺少条件时准确记录阻塞。",
+      "prerequisites": [
+        "L05"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L07",
+      "title": "限定本轮范围",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-07-why-agents-overreach-and-under-finish/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-07-why-agents-overreach-and-under-finish/index.md",
+      "learning_goal": "把‘学会 Harness’收缩为一轮可交付的小目标，写出范围与停止条件。",
+      "prerequisites": [
+        "L06"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L08",
+      "title": "学习清单与证据",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-08-why-feature-lists-are-harness-primitives/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-08-why-feature-lists-are-harness-primitives/index.md",
+      "learning_goal": "为一个目标写状态、验收与证据引用，识别‘有检查步骤’和‘已验证通过’的差别。",
+      "prerequisites": [
+        "L07"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L09",
+      "title": "防止提前宣告学会",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-09-why-agents-declare-victory-too-early/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-09-why-agents-declare-victory-too-early/index.md",
+      "learning_goal": "把‘读完即通过’改成能检验独立应用的标准，并据真实回答作判断。",
+      "prerequisites": [
+        "L08"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L10",
+      "title": "完整学习流程",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-10-why-end-to-end-testing-changes-results/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-10-why-end-to-end-testing-changes-results/index.md",
+      "learning_goal": "走完阅读、解释、独立练习、检查、修订和交接，指出单步检查漏掉的问题。",
+      "prerequisites": [
+        "L09"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L11",
+      "title": "看见学习卡点",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-11-why-observability-belongs-inside-the-harness/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-11-why-observability-belongs-inside-the-harness/index.md",
+      "learning_goal": "从真实学习记录定位一个卡点，只修改对应环节，并观察结果。",
+      "prerequisites": [
+        "L10"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L12",
+      "title": "清理与交接",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-12-why-every-session-must-leave-a-clean-state/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-12-why-every-session-must-leave-a-clean-state/index.md",
+      "learning_goal": "交接时区分已验证、未验证、教材版本和下一步，新会话不误判完成。",
+      "prerequisites": [
+        "L11"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L13",
+      "title": "有边界的自动循环",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-13-loop-engineering/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-13-loop-engineering/index.md",
+      "learning_goal": "设计有验证、两轮反馈上限和停止条件的教学循环，缺少学习者回答时等待。",
+      "prerequisites": [
+        "L12"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "L14",
+      "title": "分工与回退",
+      "kind": "lecture",
+      "source_path": "docs/zh/lectures/lecture-14-graph-engineering/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/lectures/lecture-14-graph-engineering/index.md",
+      "learning_goal": "明确讲解、作答、检查的职责及通过、修改、资料不足的去向，并说明协调收益。",
+      "prerequisites": [
+        "L13"
+      ],
+      "original_project": null
+    },
+    {
+      "id": "P01",
+      "title": "普通对话与学习 Harness 对照",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-01-baseline-vs-minimal-harness/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-01-baseline-vs-minimal-harness/index.md",
+      "learning_goal": "用难度接近的任务比较两种学习流程，记录重复解释、迁移表现和总投入，不把示范当真人实验。",
+      "prerequisites": [
+        "L02"
+      ],
+      "original_project": {
+        "code_status": "starter_and_solution_present",
+        "path": "projects/project-01",
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P02",
+      "title": "让新会话找到资料",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-02-agent-readable-workspace/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-02-agent-readable-workspace/index.md",
+      "learning_goal": "让一个新会话仅靠目录和进度接手，记录需要补充的旧信息。",
+      "prerequisites": [
+        "L04"
+      ],
+      "original_project": {
+        "code_status": "starter_and_solution_present",
+        "path": "projects/project-02",
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P03",
+      "title": "跨会话推进同一目标",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-03-multi-session-continuity/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-03-multi-session-continuity/index.md",
+      "learning_goal": "跨至少两次真实会话推进同一目标；后一轮沿用成果并识别未完成项。",
+      "prerequisites": [
+        "L06"
+      ],
+      "original_project": {
+        "code_status": "starter_and_solution_present",
+        "path": "projects/project-03",
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P04",
+      "title": "发现并修复状态错误",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-04-incremental-indexing/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-04-incremental-indexing/index.md",
+      "learning_goal": "给状态副本加入一处误标完成，检出、定位、修复后重查；禁止篡改真实证据。",
+      "prerequisites": [
+        "L08"
+      ],
+      "original_project": {
+        "code_status": "starter_and_solution_present",
+        "path": "projects/project-04",
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P05",
+      "title": "讲解与独立评估",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-05-grounded-qa-verification/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-05-grounded-qa-verification/index.md",
+      "learning_goal": "独立评价必须引用用户实际答案，允许无问题结论，并验证是否修正真实误解。",
+      "prerequisites": [
+        "L10"
+      ],
+      "original_project": {
+        "code_status": "starter_and_solution_present",
+        "path": "projects/project-05",
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P06",
+      "title": "完整学习 Harness 实验",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-06-runtime-observability-and-debugging/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-06-runtime-observability-and-debugging/index.md",
+      "learning_goal": "完成一单元全流程，并在小样本中评估一个组件的收益；只报告该样本结论。",
+      "prerequisites": [
+        "L12"
+      ],
+      "original_project": {
+        "code_status": "starter_and_solution_present",
+        "path": "projects/project-06",
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P07",
+      "title": "自行搭建学习循环",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-07-loop-engineering-first-loop/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-07-loop-engineering-first-loop/index.md",
+      "learning_goal": "自行实现目标—作答—检查—修订循环，验证停止和无进展处理；定时实验先作设计，不创建自动任务。",
+      "prerequisites": [
+        "L13"
+      ],
+      "original_project": {
+        "code_status": "docs_only",
+        "path": null,
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    },
+    {
+      "id": "P08",
+      "title": "自行实现协作图",
+      "kind": "learning_transfer_lab",
+      "source_path": "docs/zh/projects/project-08-graph-engineering-first-graph/index.md",
+      "source_url": "https://github.com/Shenguohong/learn-harness-engineering/blob/a9342ff471f2c0e60be0c08b9f4a7c502df4e442/docs/zh/projects/project-08-graph-engineering-first-graph/index.md",
+      "learning_goal": "实现有意义的并行节点、状态合并及失败回退；画图、实现、运行三种成果分别报告。",
+      "prerequisites": [
+        "L14"
+      ],
+      "original_project": {
+        "code_status": "docs_only",
+        "path": null,
+        "verification": "学习版迁移练习与原 Electron 项目实操分开验收；原项目需要实际运行记录。"
+      }
+    }
+  ]
+}
